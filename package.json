@@ -1,0 +1,35 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "back-end develpment of final project for class AIT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-fall-2021/Sylvia-Siyu-Chen-final-project.git"
+  },
+  "author": "sylvia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-fall-2021/Sylvia-Siyu-Chen-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-fall-2021/Sylvia-Siyu-Chen-final-project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "concurrently": "^6.3.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,13 @@
+<h1>SCRUMMAGE!</h1>
+{{#if user}}
+    <span class="success">Currently logged in as: {{user.username}}</span>
+{{else}}
+    <span class="error">Please Log In to View your Scrummage</span>. <a href="register">Register</a> or <a href="login">login</a>.
+
+
+{{/if}}
+
+
+{{!-- <div class="note">
+    Try checking out the <a href="restricted">page that requires authentication</a>
+</div> --}}

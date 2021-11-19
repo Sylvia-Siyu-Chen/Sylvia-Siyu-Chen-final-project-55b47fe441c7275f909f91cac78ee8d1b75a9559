@@ -1,0 +1,22 @@
+<h1>
+    Hello there, here is your backlog!
+</h1>
+
+<form method="POST">
+    Add a new task here: <input type="text" name="task" value=""><input type="submit" value="ADD!">
+</form>
+
+<table>
+    <thead>
+        <th>Task</th>
+        <th>Finished</th>
+    </thead>
+    <tbody>
+        {{#each tasks as |task|}}
+            <tr>
+                <td>{{task.name}}</td>
+                <td>{{task.finished}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
