@@ -1,5 +1,3 @@
-The content below is an example project proposal / requirements document. Replace the text below the lines marked "__TODO__" with details specific to your project. Remove the "TODO" lines.
-
 # Scrummage
 
 ## Overview
@@ -10,14 +8,12 @@ Scrummage is a web app that will allow users to have their own backlog and each 
 
 ## Data Model
 
-(___TODO__: a description of your application's data and their relationships to each other_) 
 
 The application will store Users, current_sprint and backlog
 
 * users can have at most three list (via references)
 * each list can have at most 100 items (by embedding)
 
-(___TODO__: sample documents_)
 
 An Example User:
 
@@ -100,17 +96,8 @@ see under documentation folder
 8. as a user, I can put tasks back to backlog if it was left unfinished by the end of current sprint
 9. as a user, I can delete tasks from backlog and sprint 
 
-## Research Topics
 
-* (3 points) Unit testing with JavaScript
-    
-* (2 points) Use a CSS framework throughout your site, use a reasonable of customization of the framework 
-   
-* (3 points) external API used
-    
-
-10 points total out of 8 required points 
-
+=
 
 ## [Link to Initial Main Project File](app.js) 
 
